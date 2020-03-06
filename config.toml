@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://justinchiou.me"
+baseURL = "https://justin-chiou-resume.netlify.com"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
