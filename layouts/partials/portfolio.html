@@ -1,31 +1,39 @@
 <section class="project-section py-3">
 
-    <h3 class="text-uppercase resume-section-heading mb-4">
-        {{ i18n "portfolio" }}
-    </h3>
+  <h3 class="text-uppercase resume-section-heading mb-4">
 
-    {{ range .Site.Params.portfolio.list }}
+    {{ i18n "portfolio" }}
 
-    <div class="item mb-3">
+  </h3>
 
-        <div class="item-content">
+  {{ range .Site.Params.portfolio.list }}
 
-            <ul class="resume-skills-list">
+  <div class="item mb-3">
 
-                {{ range .items }}
+    <div class="item-content">
 
-                <li class="mb-2">
-                    <a class="resume-link" href="{{ .url | safeURL }}">
-                        {{ .text }}
-                    </a>
-                </li>
+      <ul class="resume-skills-list">
 
-                {{ end }}
+        {{ range .items }}
 
-            </ul>
-        </div>
-    </div><!--//item-->
+          <li class="mb-2">
 
-    {{ end }}
+            <a class="resume-link" href="{{ .url | safeURL }}">
+
+              {{ .text }}
+
+            </a>
+
+          </li>
+
+        {{ end }}
+
+      </ul>
+
+    </div>
+
+  </div><!--//item-->
+
+  {{ end }}
 
 </section><!--//project-section-->

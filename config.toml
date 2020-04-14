@@ -2,7 +2,7 @@
 
 baseURL = "https://justin-chiou-resume.netlify.com/"
 languageCode = "en"
-title = ""
+title = "Justin Chiou | Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -91,11 +91,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         university = "Case Western Reserve University"
         dates = "2006 - 2010"
 
-        [[params.education.list]]
-        degree = "MS, Biomedical Engineering"
-        university = "Case Western Reserve University"
-        dates = "2010 - 2012"
-
     [params.interests]
         enable = true
 
@@ -114,6 +109,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.experience]
         enable = true
+
+        [[params.experience.list]]
+        title = "Co-Founder, Principal Architect"
+        dates = "2020 - Present"
+        company = "Wunderfund Health"
+        details = "Emulated the Wunderfund Platform flagship SaaS product for purposes of soliciting marketability of startup companies in the biomedical engineering and pharmaceutical sector. Intentional aim was to provide additional investments in the the form of nonaccredited investors joining the cap table, as well as open up the segment to alternative offering types, such as CF and A+."
 
         [[params.experience.list]]
         title = "Co-Founder, CTO"
