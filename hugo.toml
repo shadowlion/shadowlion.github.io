@@ -1,0 +1,15 @@
+baseURL = 'https://shadowlion.github.io'
+languageCode = 'en-us'
+title = 'My Personal Website'
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
+
+copyright = "&copy;2024 Justin Chiou"
+
+[params]
+[params.visual]
+[params.visual.image]
+enable = true
+file = "images/me.jpg"
+position = "center center"
