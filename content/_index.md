@@ -1,6 +1,6 @@
 +++
 title = 'Justin Chiou'
-tagline = 'Developer. Dancer. Cat Dad.'
+tagline = 'Developer. Ballroom Dancer. Cat Dad.'
 +++
 
-Hello World!
+Hello! Welcome to my site.
